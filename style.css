@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*:not(i) {
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: #A4243B;
+}
+.container {
+    background-color: #D8C99B;
+    width: 90vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 8vh 4vw;
+    border-radius: 7%;
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+}
+.search-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.search-box input {
+    padding: 3%;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #273E47;
+    font-size: 1.2rem;
+}
+.search-box button {
+    padding: 3% 0;
+    width: 25%;
+    background-color: #273E47;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: large;
+    border-radius: 10%;
+}
+.result {
+    position: relative;
+}
+.result h3 {
+    font-size: 2rem;
+    color: #0a3445;
+}
+.result .word {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8%;
+}
+.result button {
+    background-color: transparent;
+    color: #273E47;
+    border: none;
+    outline: none;
+    font-size: 1.8rem;
+}
+.result .details {
+    display: flex;
+    gap: 1%;
+    color: #273E47;
+    margin: 0% 0% 3% 0%;
+    font-size: 0.9rem;
+}
+.word-meaning {
+    color: #273E47;
+    font-size: 1rem;
+}
+.word-example {
+    color: #273E47;
+    font-style: italic;
+    border-left: 0.4em solid #273E47;
+    padding-left: 3%;
+    margin-top: 3%;
+}
+.error {
+    margin-top: 12%;
+    text-align: center;
+}
