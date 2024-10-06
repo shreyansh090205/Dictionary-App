@@ -29,7 +29,7 @@ btn.addEventListener("click", () => {
                     ${data[0].meanings[0].definitions[0].definition}
                 </p>
                 <p class="word-example">
-                ${data[0].meanings[0].definitions[0].example || "No exxample available for this word"}
+                ${data[0].meanings[0].definitions[0].example || "No example available for this word"}
                 </p>
             `;
 
